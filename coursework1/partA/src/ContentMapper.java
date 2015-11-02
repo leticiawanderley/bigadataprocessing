@@ -12,7 +12,6 @@ public class ContentMapper extends Mapper<LongWritable, Text, Text, IntWritable>
         String[] line = value.toString().split(";");
 	double size = line[3].length();
 	Text clazz = new Text(String.valueOf(Math.ceil(size/5)));
-	/* is it just the size of the tweet itself, or the size of the tweet + the size of its hashtags? */
 	context.write(clazz, one);
     }
 }
