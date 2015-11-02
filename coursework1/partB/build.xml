@@ -1,6 +1,6 @@
-<project name="ContentAnalysis" default="dist" basedir=".">
+<project name="TimeAnalysis" default="dist" basedir=".">
 	<description>
-        Coursework 1 - part A build file
+        Coursework 1 - part B build file
     </description>
 	<!-- set global properties for this build -->
 	<property name="src" location="src" />
@@ -38,7 +38,7 @@
 		<mkdir dir="${dist}" />
 
 		<!-- Put everything in ${build} into a jar file -->
-		<jar jarfile="${dist}/ContentAnalysis.jar" basedir="${build}" />
+		<jar jarfile="${dist}/TimeAnalysis.jar" basedir="${build}" />
 	</target>
 
 	<target name="clean" description="clean up">

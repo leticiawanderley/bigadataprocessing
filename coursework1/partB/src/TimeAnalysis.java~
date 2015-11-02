@@ -8,16 +8,16 @@ import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
-public class TimeAnalysis {
+public class ContentAnalysis {
 
   public static void runJob(String[] input, String output) throws Exception {
 
         Configuration conf = new Configuration();
 
     Job job = new Job(conf);
-    job.setJarByClass(TimeAnalysis.class);
-    job.setMapperClass(TimeMapper.class);
-    job.setReducerClass(TimeReducer.class);
+    job.setJarByClass(ContentAnalysis.class);
+    job.setMapperClass(ContentMapper.class);
+    job.setReducerClass(ContentReducer.class);
     job.setMapOutputKeyClass(Text.class);
     job.setMapOutputValueClass(IntWritable.class);
     Path outputPath = new Path(output);
