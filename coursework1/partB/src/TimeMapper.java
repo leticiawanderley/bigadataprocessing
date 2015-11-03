@@ -1,17 +1,18 @@
 import java.io.IOException;
 import java.util.StringTokenizer;
+import java.text.SimpleDateFormat;
+import java.sql.Date;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
-import java.lang.Math;
 
 public class TimeMapper extends Mapper<LongWritable, Text, Text, IntWritable> { 
     private final IntWritable one = new IntWritable(1);
     public void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
         String[] line = value.toString().split(";");
-	double size = line[3].length();
-	Text clazz = new Text(String.valueOf(Math.ceil(size/5)));
-	context.write(clazz, one);
+	String date = line[1].split(", ")[0]; 
+	Text day = new Text(date.toString());
+	context.write(day, one);		
     }
 }
