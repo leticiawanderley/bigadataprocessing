@@ -14,14 +14,33 @@ public class HashtagMapper extends Mapper<LongWritable, Text, Text, IntWritable>
     public void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
         String h = value.toString().split(";")[2];
 	String[] hashtags = h.split("\\s+"); 
+	String name;
 	for (String hashtag : hashtags) {
 		hashtag = hashtag.toLowerCase();
 		if (hashtag.startsWith("go")) {
-			context.write(new Text(hashtag.substring(GO_OFFSET)), one);		
+			name = hashtag.substring(GO_OFFSET);
+			if (isCountryName(name) && doesNotBeginWithW(name)) {
+				context.write(new Text(name), one);
+			}		
 		}
 		else if (hashtag.startsWith("team")) {
-			context.write(new Text(hashtag.substring(TEAM_OFFSET)), one);		
+			name = hashtag.substring(TEAM_OFFSET);
+			if (isCountryName(name) && doesNotBeginWithW(name)) {
+				context.write(new Text(name), one);
+			}
+		}
+		else if (hashtag.length() == 3 && doesNotBeginWithW(hashtag)) {
+			context.write(new Text(hashtag), one);		
 		}	
 	}		
     }
+
+    private boolean isCountryName(String country) {
+	return country.length() <= 28 && country.length() >= 2;
+    }
+	
+    private boolean doesNotBeginWithW(String name) {
+	return !name.startsWith("w") && !Character.isDigit(name.charAt(0));
+    }	
 }
+
