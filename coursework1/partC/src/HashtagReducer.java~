@@ -15,7 +15,7 @@ public class HashtagReducer extends Reducer<Text, IntWritable, Text, IntWritable
    	for (IntWritable value : values) {
             sum += value.get();
         }    
-	if (sum > 1) {
+	if (sum > 50) {
 		result.set(sum);
 		context.write(key, result);
 	} 
