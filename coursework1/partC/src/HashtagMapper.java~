@@ -19,17 +19,17 @@ public class HashtagMapper extends Mapper<LongWritable, Text, Text, IntWritable>
 		hashtag = hashtag.toLowerCase();
 		if (hashtag.startsWith("go")) {
 			name = hashtag.substring(GO_OFFSET);
-			if (isCountryName(name) && doesNotBeginWithW(name)) {
+			if (isCountryName(name) && checkBeginningOfString(name)) {
 				context.write(new Text(name), one);
 			}		
 		}
 		else if (hashtag.startsWith("team")) {
 			name = hashtag.substring(TEAM_OFFSET);
-			if (isCountryName(name) && doesNotBeginWithW(name)) {
+			if (isCountryName(name) && checkBeginningOfString(name)) {
 				context.write(new Text(name), one);
 			}
 		}
-		else if (hashtag.length() == 3 && doesNotBeginWithW(hashtag)) {
+		else if (hashtag.length() == 3 && checkBeginningOfString(hashtag)) {
 			context.write(new Text(hashtag), one);		
 		}	
 	}		
@@ -39,7 +39,7 @@ public class HashtagMapper extends Mapper<LongWritable, Text, Text, IntWritable>
 	return country.length() <= 28 && country.length() >= 2;
     }
 	
-    private boolean doesNotBeginWithW(String name) {
+    private boolean checkBeginningOfString(String name) {
 	return !name.startsWith("w") && !Character.isDigit(name.charAt(0));
     }	
 }

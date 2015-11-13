@@ -36,7 +36,7 @@ public class HashtagMapper extends Mapper<LongWritable, Text, Text, IntWritable>
     }
 
     private boolean isCountryName(String country) {
-	return country.length() <= 28 && country.length() >= 2;
+	return country.length() <= 36 && country.length() >= 2;
     }
 	
     private boolean checkBeginningOfString(String name) {
