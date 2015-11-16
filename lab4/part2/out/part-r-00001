@@ -1,0 +1,176 @@
+Basic Industries,1984,	777900
+Basic Industries,1986,	54565600
+Basic Industries,1988,	37710200
+Basic Industries,1990,	50279300
+Basic Industries,1992,	175390300
+Basic Industries,1994,	486501400
+Basic Industries,1996,	387478000
+Basic Industries,1998,	632407700
+Basic Industries,2000,	835244700
+Basic Industries,2002,	1457085900
+Basic Industries,2004,	2982751800
+Basic Industries,2006,	4949050000
+Basic Industries,2008,	6667251100
+Basic Industries,2010,	915806400
+Capital Goods,1984,	14133000
+Capital Goods,1986,	133303500
+Capital Goods,1988,	222104400
+Capital Goods,1990,	698720400
+Capital Goods,1992,	1590562600
+Capital Goods,1994,	1969780000
+Capital Goods,1996,	2832636600
+Capital Goods,1998,	3361564200
+Capital Goods,2000,	6367861900
+Capital Goods,2002,	9348060000
+Capital Goods,2004,	13731466300
+Capital Goods,2006,	9964054300
+Capital Goods,2008,	12955069900
+Capital Goods,2010,	1372269200
+Consumer Durables,1984,	11690100
+Consumer Durables,1986,	61766600
+Consumer Durables,1988,	237081200
+Consumer Durables,1990,	874121700
+Consumer Durables,1992,	1104517600
+Consumer Durables,1994,	1730367600
+Consumer Durables,1996,	2578342400
+Consumer Durables,1998,	3317072300
+Consumer Durables,2000,	6536357400
+Consumer Durables,2002,	7194027400
+Consumer Durables,2004,	11946849800
+Consumer Durables,2006,	14348636100
+Consumer Durables,2008,	19826570700
+Consumer Durables,2010,	3460214500
+Consumer Non-Durables,1982,	315145500
+Consumer Non-Durables,1984,	146146200
+Consumer Non-Durables,1986,	188261200
+Consumer Non-Durables,1988,	124949200
+Consumer Non-Durables,1990,	472718900
+Consumer Non-Durables,1992,	509966200
+Consumer Non-Durables,1994,	745011200
+Consumer Non-Durables,1996,	773395700
+Consumer Non-Durables,1998,	1308333100
+Consumer Non-Durables,2000,	2331213700
+Consumer Non-Durables,2002,	2251176700
+Consumer Non-Durables,2004,	3216664500
+Consumer Non-Durables,2006,	4293882700
+Consumer Non-Durables,2008,	7231873200
+Consumer Non-Durables,2010,	782036300
+Consumer Services,1984,	25876700
+Consumer Services,1986,	291601600
+Consumer Services,1988,	748478700
+Consumer Services,1990,	2521277000
+Consumer Services,1992,	5887403200
+Consumer Services,1994,	7830989400
+Consumer Services,1996,	11740653400
+Consumer Services,1998,	19473027700
+Consumer Services,2000,	21526876700
+Consumer Services,2002,	26340214700
+Consumer Services,2004,	48511323200
+Consumer Services,2006,	45568740500
+Consumer Services,2008,	68196293100
+Consumer Services,2010,	6764953000
+Energy,1984,	366800
+Energy,1986,	3064400
+Energy,1988,	6453600
+Energy,1990,	19948700
+Energy,1992,	26940600
+Energy,1994,	116227800
+Energy,1996,	427815900
+Energy,1998,	835043800
+Energy,2000,	1227926300
+Energy,2002,	1393416200
+Energy,2004,	2919787500
+Energy,2006,	4608187000
+Energy,2008,	7304905300
+Energy,2010,	993107500
+Finance,1984,	8884800
+Finance,1986,	76992600
+Finance,1988,	68792400
+Finance,1990,	716624500
+Finance,1992,	1086152400
+Finance,1994,	1398929400
+Finance,1996,	1946546400
+Finance,1998,	5423429100
+Finance,2000,	5344647600
+Finance,2002,	5603444900
+Finance,2004,	6726978000
+Finance,2006,	9684141100
+Finance,2008,	31572779200
+Finance,2010,	4959457400
+Health Care,1985,	414742200
+Health Care,1987,	2680906900
+Health Care,1989,	3835959000
+Health Care,1991,	4453561200
+Health Care,1993,	4977589500
+Health Care,1995,	4510238000
+Health Care,1997,	6122185100
+Health Care,1999,	6650615800
+Health Care,2001,	12440323500
+Health Care,2003,	16895534800
+Health Care,2005,	18852278100
+Health Care,2007,	21087185900
+Health Care,2009,	24715116100
+Miscellaneous,1986,	64078800
+Miscellaneous,1988,	56854200
+Miscellaneous,1990,	80405400
+Miscellaneous,1992,	105079300
+Miscellaneous,1994,	224996000
+Miscellaneous,1996,	403314300
+Miscellaneous,1998,	3966588600
+Miscellaneous,2000,	8055118600
+Miscellaneous,2002,	8798828000
+Miscellaneous,2004,	9432342700
+Miscellaneous,2006,	8861034200
+Miscellaneous,2008,	10417070500
+Miscellaneous,2010,	997407500
+Public Utilities,1987,	1338800
+Public Utilities,1989,	694189300
+Public Utilities,1991,	703005400
+Public Utilities,1993,	2208407200
+Public Utilities,1995,	3075816400
+Public Utilities,1997,	2103681400
+Public Utilities,1999,	3641698400
+Public Utilities,2001,	5519685400
+Public Utilities,2003,	4795199100
+Public Utilities,2005,	6136518100
+Public Utilities,2007,	9597175300
+Public Utilities,2009,	11223476200
+Technology,1984,	1376260700
+Technology,1986,	15363418700
+Technology,1988,	48439865300
+Technology,1990,	75661733800
+Technology,1992,	104232296100
+Technology,1994,	122697486600
+Technology,1996,	143569777600
+Technology,1998,	148082444500
+Technology,2000,	163752370300
+Technology,2002,	195598130200
+Technology,2004,	174307730200
+Technology,2006,	185793055100
+Technology,2008,	223018976400
+Technology,2010,	21134813500
+Transportation,1984,	4000
+Transportation,1986,	17737200
+Transportation,1988,	29740200
+Transportation,1990,	194147500
+Transportation,1992,	337846800
+Transportation,1994,	571155600
+Transportation,1996,	648979300
+Transportation,1998,	1086803800
+Transportation,2000,	857457600
+Transportation,2002,	2167911100
+Transportation,2004,	4008993800
+Transportation,2006,	5059142400
+Transportation,2008,	9601187500
+Transportation,2010,	1664101300
+n/a,1990,	4536200
+n/a,1992,	13818400
+n/a,1994,	20715200
+n/a,1996,	25896500
+n/a,1998,	54464600
+n/a,2000,	87012400
+n/a,2002,	354195600
+n/a,2004,	705490100
+n/a,2006,	1265443700
+n/a,2008,	3019503000
+n/a,2010,	467294500
