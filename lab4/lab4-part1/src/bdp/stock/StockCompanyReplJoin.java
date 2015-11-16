@@ -6,6 +6,7 @@ import org.apache.commons.lang.StringUtils;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.input.SequenceFileInputFormat;
@@ -22,15 +23,14 @@ public class StockCompanyReplJoin {
         
         job.setJarByClass(StockCompanyReplJoin.class);
         job.setMapperClass(StockCompanyReplJoinMapper.class);
+	job.setReducerClass(TestReducer.class);
         job.setInputFormatClass(SequenceFileInputFormat.class);
          
-        job.setOutputKeyClass(TextIntPair.class);
+        job.setOutputKeyClass(Text.class);
+        
         job.setOutputValueClass(LongWritable.class);
-        
-        job.setNumReduceTasks(0);
-        
-        job.setOutputFormatClass(SequenceFileOutputFormat.class);
-        
+        job.setMapOutputKeyClass(TextIntPair.class);
+        job.setMapOutputValueClass(LongWritable.class);        
         
         job.addCacheFile(new Path("/data/companylist.tsv").toUri());
         
