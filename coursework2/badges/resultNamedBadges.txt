@@ -1,0 +1,78 @@
+Announcer	21669
+Archaeologist	20644
+Benefactor	4471
+Commentator	1078
+Convention	28979
+Deputy	16315
+Editor	517
+Enlightened	-4432
+Epic	105072
+Excavator	4462
+Famous Question	5552
+Good Answer	3056
+Good Question	10920
+Great Answer	53166
+Great Question	15387
+Guru	64195
+Legendary	169220
+Mortarboard	10279
+Necromancer	6473
+Nice Answer	-5226
+Nice Question	8465
+Notable Question	-3582
+Organizer	4416
+Peer Pressure	2636
+Popular Question	136
+Proofreader	16300
+Publicist	34568
+Quorum	8544
+Research Assistant	27739
+Reviewer	13647
+Revival	4757
+Sheriff	102285
+Sportsmanship	44435
+Stellar Question	19060
+Strunk &amp; White	19042
+Student	399
+Suffrage	6375
+Synonymizer	41161
+Tag Editor	8513
+Talkative	9612
+Tenacious	4775
+Yearling	3160
+Altruist	9946
+Analytical	2235
+Autobiographer	1624
+Beta	6688
+Booster	43768
+Caucus	5767
+Citizen Patrol	3265
+Civic Duty	7083
+Cleanup	8453
+Constituent	9334
+Copy Editor	36622
+Critic	2251
+Custodian	5488
+Disciplined	16236
+Electorate	16177
+Enthusiast	3504
+Fanatic	11416
+Favorite Question	12645
+Generalist	77377
+Informed	1358
+Investor	7255
+Marshal	28687
+Outspoken	20549
+Populist	39522
+Promoter	3534
+Pundit	27452
+Reversal	71426
+Scholar	494
+Self-Learner	3241
+Steward	16275
+Supporter	741
+Taxonomist	10930
+Teacher	625
+Tumbleweed	496
+Unsung Hero	6404
+Vox Populi	6053

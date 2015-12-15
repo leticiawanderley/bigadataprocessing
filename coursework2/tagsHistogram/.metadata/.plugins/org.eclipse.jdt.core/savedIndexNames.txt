@@ -1,0 +1,14 @@
+INDEX VERSION 1.127+/homes/lfw30/Documents/bigdataprocessing/coursework2/tagsHistogram/.metadata/.plugins/org.eclipse.jdt.core
+1844739345.index
+105984261.index
+1243984542.index
+2293103228.index
+644253804.index
+6861544.index
+2664587909.index
+4183407252.index
+2187684041.index
+887907163.index
+470229534.index
+3736215469.index
+521647936.index
